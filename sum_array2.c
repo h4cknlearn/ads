@@ -18,7 +18,8 @@
     
     for(i = 0; i < n; i++)
         scanf("%d", &array[i]);
-        
+
+    // dereferencing out_intnum and assigning n to it   
     *out_intnum = n;
     return array;
     
